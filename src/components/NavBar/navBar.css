@@ -1,24 +1,29 @@
 nav {
     display: flex;
-    flex-direction: row;
-    background-color: rgb(199, 219, 13);
+    flex-direction: column;
+    justify-items: center;
+    align-items: stretch;
+    align-content: space-between;
+    background-color: rgb(214, 214, 6);
 }
 
 nav ul {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 nav ul li {
-    float: left;
+    margin: 10%;
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
 
 nav ul li a {
-    display: block;
-    padding: 10px;
     color: rgb(10, 10, 10);
     text-decoration: none;
+    font-size: larger;
 }
 
 nav ul li:hover {

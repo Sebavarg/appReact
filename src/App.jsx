@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <ItemListContainer greeting='"Ecommerce Sebastian"'/>
+      <ItemListContainer greeting='"Market Place"'/>
     </>
     
   );
